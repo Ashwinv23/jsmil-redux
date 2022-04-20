@@ -12,6 +12,7 @@ function App() {
   useEffect(() => {
     dispatch(calcTotal());
   }, [cartItems]);
+
   return (
     <main>
       <NavBar />
@@ -19,4 +20,5 @@ function App() {
     </main>
   );
 }
+
 export default App;
